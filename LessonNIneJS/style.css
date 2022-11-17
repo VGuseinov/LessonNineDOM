@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: 3px black solid;
+}
+
+td {
+    padding: 10px;
+}
+
+td > img {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.avatar {
+    width: 100px;
+}
